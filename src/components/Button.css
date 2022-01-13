@@ -1,0 +1,23 @@
+:root {
+  --primary: white;
+  --secondary: black;
+}
+
+.btn {
+  border-radius: 0px;
+  width: 120px;
+  background: var(--primary);
+  color: var(--secondary);
+}
+
+.btn.transparent {
+  color: var(--primary);
+  background-color: transparent;
+  border: 2px solid var(--primary);
+  transition: 0.3s;
+}
+
+.btn.transparent:hover {
+  background-color: var(--primary);
+  color: var(--secondary);
+}

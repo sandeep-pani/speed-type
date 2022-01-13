@@ -1,0 +1,55 @@
+.speed-type-container {
+  display: flex;
+  /* border: 1px solid rgb(44, 44, 44); */
+  flex-direction: column;
+  align-items: center;
+  padding-top: 30px;
+}
+
+.type-words {
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  white-space: pre;
+  font-size: 40px;
+  height: 100px;
+  align-items: center;
+  width: 100%;
+}
+
+.words {
+  font-family: "Courier New", Courier, monospace;
+}
+
+.words-preview {
+  padding: 10px 50px;
+  color: rgb(0, 0, 0);
+  font-family: "Courier New", Courier, monospace;
+}
+
+.words.outgoing-char {
+  color: grey;
+}
+
+.words.current-char-correct {
+  color: rgb(80, 255, 80);
+  background-color: rgb(87, 49, 255);
+}
+
+.words.current-char-wrong {
+  color: rgb(80, 255, 80);
+  background-color: red;
+}
+
+.words.incoming-char {
+  color: rgb(255, 255, 255);
+}
+
+.stats-container {
+  /* padding: 30px; */
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+}
