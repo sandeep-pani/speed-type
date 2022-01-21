@@ -7,9 +7,9 @@ import SpeedType from "./components/speedType.js";
 function App() {
   return (
     <div>
-      <Router basename={process.env.PUBLIC_URL}>
+      <Router>
         <NavBar />
-        <Routes>
+        <Routes basename={process.env.PUBLIC_URL}>
           <Route path="/" element={<Content />} />
           <Route path="/begin-main" element={<SpeedType />} />
         </Routes>
