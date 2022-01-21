@@ -8,6 +8,7 @@ function App() {
   console.log("url:" + process.env.PUBLIC_URL);
   return (
     <div>
+      <h1>hello</h1>
       <Router>
         <NavBar />
         a:{`/${process.env.PUBLIC_URL}`}
