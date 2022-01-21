@@ -5,6 +5,7 @@ import Content from "./components/content.js";
 import SpeedType from "./components/speedType.js";
 
 function App() {
+  console.log("url:" + process.env.PUBLIC_URL);
   return (
     <div>
       <Router>
