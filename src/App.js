@@ -10,6 +10,7 @@ function App() {
     <div>
       <Router>
         <NavBar />
+        {process.env.PUBLIC_URL}
         <Routes basename={process.env.PUBLIC_URL}>
           <Route path="/" element={<Content />} />
           <Route path="/begin-main" element={<SpeedType />} />
